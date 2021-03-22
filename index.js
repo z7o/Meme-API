@@ -40,7 +40,7 @@ app.get('/', async(req, res) => {
     // }
 });
 
-app.listen(3000, (port) => {
+app.listen(process.env.PORT || 80, () => {
     console.clear()
-    console.log(`~ Your meme API has started ~\n\nRunning on: localhost:3000`);
+    console.log(`~ Your meme API has started ~\n\nRunning on: localhost:80`);
 });
