@@ -13,7 +13,7 @@ First use:
 
 **How to use the api?**
 
-```
+```js
 const fetch = require('node-fetch')
     
 fetch('your-site-here').then(res =>{
