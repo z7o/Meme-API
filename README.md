@@ -21,5 +21,6 @@ fetch('your-site-here').then(res =>{
   res.json().then(json =>{
     let meme = json.url
     // What ever you want do further! 
+    })
 })
 ```
